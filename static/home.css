@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    margin: 0;
+    width: 100%;
+}
+.navbar{
+    background-color:#000;
+    color: aliceblue;
+     
+}
+
+.navbar-brand{
+position: relative;
+left:10%;
+font-weight: 700;
+font-size: 30px;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(104,52,185,1) 35%, rgba(0,212,255,1) 100%);
+    
+
+
+}
+
+.navbar-nav{
+    position: absolute;
+    right: 10%; 
+    
+}
+.btn1{
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    
+}
+.btn2{
+    position: absolute;
+    left: 25%;
+    bottom: 10%;  
+}
+hr{
+    position:relative;
+    left:48%;
+    width:5%;
+    border: none;
+    border-top: 7px dotted black;
+    padding: 0;
+    background-color: #fff;
+
+    
+
+    
+}
+.contact{
+    
+    padding:3%;
+    width: 100%;
+    background-color:#DEEDF0;
+    color: black;
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+   
+    
+}
+
+i:hover{
+    color: #f148ab;
+    font-size: 300%;
+    cursor: pointer;
+}
+.nav-link:hover{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(104,52,185,1) 35%, rgba(0,212,255,1) 100%);
+    font-size: 150%;
+}
+button:hover{
+    font-size: 150%;
+}
+.fab{
+    color: black;
+}
+.far{
+    color: black;
+}
